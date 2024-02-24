@@ -70,7 +70,7 @@ namespace AuthenticateWebAPI.Controllers
             shopCart.Products.Remove(productRemove);
             appDbContext.SaveChanges();
 
-            return Ok($"Item removed. There were {count} items in your shopping cart, now there are {GetProductsShoppingCart(shopCart.Id)} items left");
+            return Ok($"Product removed.Items in cart {count}, now there is {GetProductsShoppingCart(shopCart.Id)} items remaining");
         }
 
         // Adds a product with a given ID to the shopping cart.
@@ -97,18 +97,18 @@ namespace AuthenticateWebAPI.Controllers
                 appDbContext.ShoppingCarts.Add(shopCart);
             }
             // finds the product to add to the shopping cart
-            var productToAdd = appDbContext.Products.Find(productId);
+            var productAdd = appDbContext.Products.Find(productId);
 
-            if (productToAdd == null)
+            if (productAdd == null)
             {
                 return NotFound("Product not found");
             }
             // adds the product to the shopping cart
-            shopCart.Products.Add(productToAdd);
+            shopCart.Products.Add(productAdd);
             appDbContext.SaveChanges();
 
             // returns a message product was added to the cart
-            return Ok("Product " + productToAdd.Name + " added successfully to your shopping cart.\n Your shopping cart now has " + GetProductsShoppingCart(shopCart.Id) + " items.");
+            return Ok("Product " + productAdd.Name + " added successfully in the cart. \nShopping cart has " + GetProductsShoppingCart(shopCart.Id) + " products.");
         }
 
         //get the number of products in your shopping cart
