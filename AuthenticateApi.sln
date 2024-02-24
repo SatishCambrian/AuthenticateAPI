@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticateWebApi", "Authe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticateApiClassLibrary", "AuthenticateApiClassLibrary\AuthenticateApiClassLibrary.csproj", "{80C1EF47-F88C-40C1-A282-1C0B319CA08F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticateApiTest", "AuthenticateApiTest\AuthenticateApiTest.csproj", "{A82CCEA2-D66B-4EC1-86B3-629BFE77B7A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticateApiTests", "AuthenticateApiTests\AuthenticateApiTests.csproj", "{28352254-81D2-43F0-8AA7-0F5341961BF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +26,9 @@ Global
 		{80C1EF47-F88C-40C1-A282-1C0B319CA08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80C1EF47-F88C-40C1-A282-1C0B319CA08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80C1EF47-F88C-40C1-A282-1C0B319CA08F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A82CCEA2-D66B-4EC1-86B3-629BFE77B7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A82CCEA2-D66B-4EC1-86B3-629BFE77B7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A82CCEA2-D66B-4EC1-86B3-629BFE77B7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A82CCEA2-D66B-4EC1-86B3-629BFE77B7A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28352254-81D2-43F0-8AA7-0F5341961BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28352254-81D2-43F0-8AA7-0F5341961BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28352254-81D2-43F0-8AA7-0F5341961BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28352254-81D2-43F0-8AA7-0F5341961BF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
