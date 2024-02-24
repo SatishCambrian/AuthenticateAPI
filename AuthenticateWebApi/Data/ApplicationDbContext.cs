@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Authenticated.Data
 {
-    public class AuthenticateDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public AuthenticateDbContext(DbContextOptions<AuthenticateDbContext> options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
         }
